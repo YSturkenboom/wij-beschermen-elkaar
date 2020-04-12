@@ -16,8 +16,8 @@ import {
 } from "react-share";
 
 function MapScreen() {
-  const shareUrl = 'hmmmmmmmm.nl'
-  const msgTitle = 'sdsdsdsd'
+  const shareUrl = 'https://wij-beschermen-elkaar.netlify.com'
+  const msgTitle = 'Hey, help ook mee met bescherming bezorgen of maken aan zorgmedewerkers, tegen corona. Iedereen kan meedoen, jij en ik ook!'
   return (
     <div className="map-screen mx-auto">
       <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"></link>
