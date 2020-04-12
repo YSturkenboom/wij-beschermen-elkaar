@@ -26,7 +26,7 @@ function MapScreen() {
         <p className="mt-3 maxw mx-auto headingbox p-4 ">
           🆘 <b>Een oproep aan de inwoners van Hoofddorp en omstreken:</b><br></br><br></br>
           COVID-19 treft ons allemaal, en alleen samen kunnen we het ook overwinnen. Maar dat betekent niet dat we stil hoeven te zitten. Iedereen, jij ook, kan helpen, op een manier die echt praktisch is!
-          Het doel van deze site is om mensen met verschillende mogelijkheden te verbinden om zo praktische oplossingen te bieden voor het gebrek aan beschermend materieel voor zorgmedewerkers.<br></br>
+          Laten we niet allemaal op eigen houtje werken, maar onze krachten bundelen om zo praktische oplossingen te bieden voor het gebrek aan beschermend materieel voor zorgmedewerkers.<br></br>
           Met jouw hulp en expertise op jouw gebied kunnen we een enorm verschil maken.<br></br><br></br>
           De kracht van dit initiatief zit hem in de samenwerking, dus deel dit vooral met zoveel mogelijk mensen op social media. Dit is geen kettingbrief, maar een oproep tot actie!<br></br>
           <div className='d-flex justify-content-center align-items-center'>
@@ -79,7 +79,7 @@ function MapScreen() {
             </div>
             <div className="d-flex flex-column align-items-center exImage">
               <img className="mb-2" src={require("./meplusmasklol.jpeg")} />
-              een van onze eigen prototypes! (gebruikte 3d model is niet van ons)
+              een van onze eigen prototypes (gebruikte 3d model is niet van ons)
             </div>
           </div>
           
