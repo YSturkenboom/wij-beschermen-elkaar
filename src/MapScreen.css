@@ -1,0 +1,52 @@
+.map-screen {
+  height: 100%;
+  width: 100%;
+  background: url('gmapsplaceholder.png') no-repeat center center fixed;
+  font-family: 'Rubik', sans-serif;
+  margin-top: -16px;
+}
+
+.headingbox {
+  background: white;
+  border-radius: 15px;
+}
+
+.container {
+  padding-bottom: 15px;
+}
+
+.maxw {
+  width: 900px;
+}
+
+.exImage {
+  height: 275px;
+}
+
+.exImage img {
+  height: 200px;
+}
+
+.help-btn{
+  width: 600px;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(224, 255, 212);
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.help-btn-2 {
+  background-color: rgb(255, 212, 212);
+}
+
+svg {
+  margin: 20px !important;
+  font-size: 3.5rem !important;
+}
+
+.help-btn:hover{
+  cursor: pointer;
+  background-color: white;
+}
