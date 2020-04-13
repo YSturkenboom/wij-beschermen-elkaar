@@ -15,22 +15,18 @@
   padding-bottom: 15px;
 }
 
-.maxw {
-  width: 900px;
-}
-
 .exImage {
-  height: 275px;
+  height: 200px;
 }
 
 .exImage img {
-  height: 200px;
+  height: 120px;
 }
 
 .help-btn{
   width: 600px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   background-color: rgb(224, 255, 212);
   padding: 15px 25px;
   border-radius: 5px;
@@ -41,12 +37,41 @@
   background-color: rgb(225, 232, 255);
 }
 
-svg {
-  margin: 20px !important;
-  font-size: 3.5rem !important;
+.btns svg {
+  display: none;
 }
 
 .help-btn:hover{
   cursor: pointer;
   background-color: white;
+}
+
+@media only screen and (min-width: 900px) {
+  .help-btn{
+    font-size: 18px;
+  }
+
+  .maxw {
+    width: 900px;
+  }
+  .imageflex {
+    flex-direction: row;
+  }
+
+  .btns svg {
+    display: block !important;
+  }
+  
+  svg {
+    display: unset !important;
+    margin: 20px !important;
+    font-size: 3.5rem !important;
+  }
+  .exImage {
+    height: 275px;
+  }
+
+  .exImage img {
+    height: 200px;
+  }
 }

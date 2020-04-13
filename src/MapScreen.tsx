@@ -5,11 +5,9 @@ import { Print, LocalShipping, LocalHospital, LocalLaundryService, EmojiPeople }
 import {
   FacebookShareButton,
   FacebookIcon,
-  InstapaperShareButton,
   TwitterShareButton,
   WhatsappShareButton,
   TwitterIcon,
-  InstapaperIcon,
   TelegramIcon,
   TelegramShareButton,
   WhatsappIcon
@@ -64,7 +62,7 @@ function MapScreen() {
           
           <a href="#contact">We zijn nog hard op zoek naar sponsors!</a>
         </p>
-        <div className='d-flex justify-content-center'>
+        <div className='d-flex justify-content-center btns'>
           <LocalHospital />
           <a className='help-btn help-btn-2 shadow' href="https://yasturkenboom.typeform.com/to/dTDDg6" target="_blank">Ik ben een zorgmedewerker en heb spullen nodig!</a>
         </div>
@@ -72,7 +70,7 @@ function MapScreen() {
           🛡️ <b>Wees het schild voor onze zorgmedewerkers</b><br></br><br></br>
           Met 3D-printers is het mogelijk om gezichtsbescherming te printen, die eenvoudig en goedkoop in elkaar kan worden gezet. Heb jij een 3D-printer of een bedrijf dat 3D-printers heeft?
           Dan kun jij de middelen produceren die nu mensen kunnen helpen! Of jouw leegstaande ruimte, die kan het centrum worden om prints op te halen, in elkaar te zetten en steriliseren<br></br><br></br>
-          <div className="d-flex justify-content-center">
+          <div className="d-flex flex-column justify-content-center image-flex">
             <div className="d-flex flex-column align-items-center exImage">
               <img className="mb-2" src="https://cdn.prusa3d.com/wp-content/uploads/2020/03/shield-1.jpg" />
               credit: Prusa Research, bron https://www.prusa3d.com/covid19/
@@ -85,7 +83,7 @@ function MapScreen() {
           
           <b>We produceren momenteel spullen die NIET bedoeld zijn voor gebruik in een IC, of op plekken waar het risico op besmetting erg hoog is. Gebruik is op eigen risico!</b>
         </p>
-        <div className="d-flex flex-column mx-auto w-100">
+        <div className="d-flex flex-column mx-auto w-100 btns">
           <div className='d-flex justify-content-center'>
             <Print />
             <a className='help-btn shadow' href="https://yasturkenboom.typeform.com/to/B7FLTr" target="_blank">Wij hebben / ik heb 3D-printer(s) en wil onderdelen printen</a>
