@@ -12,12 +12,17 @@ import {
   TelegramShareButton,
   WhatsappIcon
 } from "react-share";
+import GitHubButton from 'react-github-btn'
 
 function MapScreen() {
-  const shareUrl = 'https://wij-beschermen-elkaar.netlify.com'
+  const shareUrl = 'https://www.wijbeschermen.nl'
   const msgTitle = 'Hey, help ook mee met bescherming bezorgen of maken aan zorgmedewerkers, tegen corona. Iedereen kan meedoen, jij en ik ook!'
   return (
     <div className="map-screen mx-auto">
+      <div className="git-thing d-none d-md-block">
+        <GitHubButton href="https://github.com/ysturkenboom/wij-beschermen-elkaar/archive/master.zip" data-size="large" aria-label="Download ysturkenboom/wij-beschermen-elkaar on GitHub">Download</GitHubButton>
+        <a className="ml-3" href="https://github.com/YSturkenboom/wij-beschermen-elkaar">GitHub</a>
+      </div>
       <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"></link>
       <div className="container pt-4 pb-6">
         <h1 className="text-center mt-6 mb-6">Hoofddorp beschermt elkaar</h1>
