@@ -20,13 +20,14 @@ function MapScreen() {
     <div className="map-screen mx-auto">
       <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"></link>
       <div className="container pt-4 pb-6">
-        <h1 className="text-center mt-6">Hoofddorp beschermt elkaar</h1>
+        <h1 className="text-center mt-6 mb-6">Hoofddorp beschermt elkaar</h1>
         <p className="mt-3 maxw mx-auto headingbox p-4 ">
           🆘 <b>Een oproep aan de inwoners van Hoofddorp en omstreken:</b><br></br><br></br>
           COVID-19 treft ons allemaal, en alleen samen kunnen we het ook overwinnen. Maar dat betekent niet dat we stil hoeven te zitten. Iedereen, jij ook, kan helpen, op een manier die echt praktisch is!
           Laten we niet allemaal op eigen houtje werken, maar onze krachten bundelen om zo praktische oplossingen te bieden voor het gebrek aan beschermend materieel voor zorgmedewerkers.<br></br>
           Met jouw hulp en expertise op jouw gebied kunnen we een enorm verschil maken.<br></br><br></br>
           De kracht van dit initiatief zit hem in de samenwerking, dus deel dit vooral met zoveel mogelijk mensen op social media. Dit is geen kettingbrief, maar een oproep tot actie!<br></br>
+          <br></br><a href="#contact">We zijn nog hard op zoek naar sponsors!</a>
           <div className='d-flex justify-content-center align-items-center'>
             <b>Deel met vrienden en kennissen:</b>
             <FacebookShareButton
@@ -58,9 +59,7 @@ function MapScreen() {
             >
               <TelegramIcon size={32} round />
             </TelegramShareButton>
-          </div> 
-          
-          <a href="#contact">We zijn nog hard op zoek naar sponsors!</a>
+          </div>
         </p>
         <div className='d-flex justify-content-center btns'>
           <LocalHospital />
@@ -106,7 +105,7 @@ function MapScreen() {
           </div>
         </div>
 
-        <div id="contact" className="maxw mx-auto headingbox p-4">
+        <div id="contact" className="maxw mx-auto headingbox p-4 mb-3">
           <h2>Contact</h2>
           Heb je een opmerking of idee, of mis je opties op deze site? Ook voor zakelijke voorstellen.
           <div>

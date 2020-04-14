@@ -24,17 +24,18 @@
 }
 
 .help-btn{
+  color: white;
   width: 600px;
   text-align: center;
   font-size: 16px;
-  background-color: rgb(224, 255, 212);
+  background-color: rgb(94, 233, 39);
   padding: 15px 25px;
   border-radius: 5px;
   margin: 20px;
 }
 
 .help-btn-2 {
-  background-color: rgb(225, 232, 255);
+  background-color: rgb(47, 96, 255);
 }
 
 .btns svg {
@@ -44,6 +45,12 @@
 .help-btn:hover{
   cursor: pointer;
   background-color: white;
+  color: black;
+}
+
+h1 {
+  margin-top: 2.5rem !important;
+  margin-bottom: 3rem !important;
 }
 
 @media only screen and (min-width: 900px) {
@@ -69,6 +76,7 @@
   }
   .exImage {
     height: 275px;
+    font-size: 14px;
   }
 
   .exImage img {
